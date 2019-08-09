@@ -6,13 +6,13 @@ INSERT INTO series
 
 INSERT INTO subgenres
   VALUES
-  ("A"),
-  ("B");
+  (1, "A"),
+  (2, "B");
 
 INSERT INTO authors
   VALUES
-  ("A"),
-  ("B");
+  (1, "A"),
+  (2, "B");
 
 INSERT INTO books
   (title, year, series_id)

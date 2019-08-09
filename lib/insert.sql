@@ -27,4 +27,11 @@ INSERT INTO books
 INSERT INTO characters
   (name, motto, species, author_id, series_id)
   VALUES
-  ("A", "B", "C", 1, 1);
+  ("A1", "B", "C", 1, 1),
+  ("B2", "B", "C", 1, 1),
+  ("C3", "B", "C", 1, 1),
+  ("D4", "B", "C", 1, 1),
+  ("E5", "B", "C", 1, 2),
+  ("F6", "B", "C", 1, 2),
+  ("G7", "B", "C", 1, 2),
+  ("H8", "B", "C", 1, 2);

@@ -1,1 +1,1 @@
-UPDATE characters SET name = "Martian" WHERE name="C";
+UPDATE characters SET name = "Martian" WHERE id=(SELECT MAX(id) FROM characters).flatten[0];
